@@ -168,8 +168,11 @@
   }
 }
 
+
 /* Contact */
-.contact-wrapper {
+
+/*
+ .contact-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -266,4 +269,42 @@
       border-radius: 20px;
     }
   }*/
+
+  .contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: auto;
+  background-color: transparent;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  gap: 30px;
+  margin: 1rem auto;
+  background-color: #ffff;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 5px 1px rgba(152, 43, 253, 0.993);
+}
+
+.contact-info .info-group {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 10px 100px;
+  gap: 10px;
+}
+
+.contact-info .info-group h1 {
+  margin: 0 auto;
+}
+
+.contact-info .info-group img {
+  width: 30px;
+  height: 30px;
 }
